@@ -1,0 +1,85 @@
+body {
+    background-color: #f8f9fa; /* Warna latar belakang putih */
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn {
+    margin: 5px;
+}
+
+/* Center the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h2 {
+    color: #d5006d; /* Warna pink */
+}
+
+.card {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #d5006d; /* Warna pink */
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #d5006d; /* Warna pink */
+    color: white;
+}
+
+.table td {
+    background-color: #ffffff; /* Warna putih */
+}
+
+.table tr:hover {
+    background-color: #f1f1f1; /* Warna abu-abu muda saat hover */
+}
+
+.btn-custom-green {
+    background-color: #77dd77; /* Warna hijau kustom */
+    color: white; /* Warna teks */
+}
+.btn-custom-green:hover {
+    background-color: #66cc66; /* Warna saat hover */
+    color: white; /* Warna teks saat hover */
+}
